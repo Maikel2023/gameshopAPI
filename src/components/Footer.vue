@@ -10,14 +10,14 @@
                 <div class="col-md-6">
                     <p class="mb-1">
                         <img src="/img/nlgameshop.png" class="logo-image" alt="Een Game Shop" />
-                        <span class="h4 text-white">Een Game Shop</span>
+                        <span class="h4 text-white">Een Clothing Shop</span>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-center mb-3">
-                        <strong class="text-white">Your Ultimate Gaming Destination</strong>
+                        <strong class="text-white">Good Clothes Store</strong>
                     </p>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="col-md-12">
                     <p class="text-center text-white">
                         <span>
-                            &copy; 2023 Een Game Shop. All rights reserved.
+                            &copy; 2023 Een Clothes Shop. All rights reserved.
                         </span>
                     </p>
                 </div>

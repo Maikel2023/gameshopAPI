@@ -1,11 +1,29 @@
-<script setup>
-import GameList from '../components/GameList.vue'
-</script>
+<!-- src/views/Home.vue -->
 
 <template>
-   <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex" id="game-list">
-            <GameList />
-      </div>
+   <div>
+     <h1>User Card Blocks</h1>
+     <user-card-container :users="users" />
    </div>
-</template>
+ </template>
+ 
+ <script>
+ import UserCardContainer from '@/components/UserCardContainer.vue';
+ 
+ export default {
+   components: {
+     UserCardContainer,
+   },
+   data() {
+     return {
+       users: [],
+     };
+   },
+   async mounted() {
+     // Fetch data from the API
+     const response = await fetch('https://jsonplaceholder.typicode.com/users');
+     this.users = await response.json();
+   },
+ };
+ </script>
+ 
